@@ -1,4 +1,6 @@
-package com.gildedrose;
+package com.sds.cafe;
+
+import com.cafe.GildedRose;
 
 public class TexttestFixture {
     public static void main(String[] args) {
@@ -16,7 +18,7 @@ public class TexttestFixture {
                 // this conjured item does not work properly yet
                 new Item("Conjured Mana Cake", 3, 6) };
 
-        GildedRose app = new GildedRose(items);
+        Cafe app = new Cafe(items);
 
         int days = 2;
         if (args.length > 0) {

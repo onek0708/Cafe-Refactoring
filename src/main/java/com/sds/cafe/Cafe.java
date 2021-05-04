@@ -1,9 +1,9 @@
-package com.gildedrose;
+package com.sds.cafe;
 
-class GildedRose {
+class Cafe {
     Item[] items;
 
-    public GildedRose(Item[] items) {
+    public Cafe(Item[] items) {
         this.items = items;
     }
 
