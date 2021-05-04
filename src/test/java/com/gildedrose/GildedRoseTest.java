@@ -4,7 +4,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-class GildedRoseTest {
+public class GildedRoseTest {
 
     @Test
     public void should_be_nothing_when_no_item() {
